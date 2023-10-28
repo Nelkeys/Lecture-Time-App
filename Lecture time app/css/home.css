@@ -1,0 +1,30 @@
+@import url("/css/general/style.css") all;
+
+
+
+
+
+.select-day{
+  margin: 7em 1em;
+}
+.days{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: .5em;
+}
+.days a{
+  padding: 1em;
+  text-decoration: none;
+  color: #fff;
+  background: var(--primary-color);
+  margin-top: 1em;
+  border-radius: .5em;
+  border: 1px solid #aaa;
+  transition: 0.5s;
+}
+.days .coLor{
+  background: #fff;
+  color: var(--dark-text-color);
+}
